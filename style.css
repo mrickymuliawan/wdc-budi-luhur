@@ -1,0 +1,575 @@
+		*{
+			font-family: Montserrat, sans-serif;
+
+		}
+		body h3{
+			letter-spacing: 4px;
+		}
+		body{
+			letter-spacing: 2px;
+			background: #EAEDED;
+		}
+
+		/*-----------NAVBAR------------*/
+		.navbar {
+	    margin-bottom: 0;
+	    background: rgba(44, 62, 80, 0.9 ) !important;
+	    z-index: 9999;
+	    border: 0;
+	    font-size: 12px !important;
+	    line-height: 1.42857143 !important;
+	    letter-spacing: 4px;
+	    border-radius: 0;
+		}
+
+		.navbar-left li a, .navbar .navbar-brand {
+		    color: #fff !important;
+
+		}
+		.navbar-brand{
+			font-size: 30px !important; 
+			letter-spacing: 1px;
+			border-bottom: 1px solid white; 
+		}
+
+		.navbar-left li a:hover, .navbar-left li.active a {
+		    color: #CD6155 !important;
+		    background-color: #fff !important;
+		    transition: 0.2s;
+		}
+
+		.navbar-default .navbar-toggle {
+		    border-color: transparent;
+		    color: #fff !important;
+		}
+		.halaman{
+			font-size: 12px !important;
+		}
+		.able a{
+			background: white;
+			color:#CD6155 !important;
+		}
+		.able a:hover{
+			background: #CD6155 !important;
+			color:white!important;
+			 transition: 0.2s;
+		}
+		.disable a{
+			background: white;
+			color:#CD6155 !important;
+		}
+		.disable a:hover{
+			background: white !important;
+			color:#CD6155 !important;
+		}
+		/*-----------BG-1------------*/
+		.bg1{
+			background-image: url('pic/background11.jpg'); 
+			background-size: cover;
+			background-position: -2px; 
+			color: white;
+			padding: 150px 25px 100px;
+			letter-spacing: 4px;
+		}
+		.col1{
+			padding: 5px ; 
+    		background: rgba(44, 62, 80, 0.8);
+			letter-spacing: 3px;
+			margin-bottom: 20px;
+		}
+		.col1 h3, .col2 h3{
+			letter-spacing: 2px; 
+		}
+		.col2{
+			letter-spacing: 3px;
+		}
+		.bg1 table {
+			margin:auto;
+			text-align: left;
+		}
+		.bg1 table td{
+			border-right: 10px solid #73C6B6;
+			border-color: rgba(115, 198, 182, 0.0);
+		}
+		.bg1 table tr{
+			height: 60px;
+		}
+		.col11{
+			background: rgba(254,254,254,0.8); 
+			color: #2C3E50;
+		}
+
+		.bg1 .panel{
+			border: none;
+		}
+		.bg1 .panelform .panel-heading{
+			background:#CD6155;
+			color:white ;
+			border-bottom: 4px solid #CD6155; 
+		}
+		
+		.bg1 .panelform .panel-body{
+			letter-spacing: 1px;
+			color: #2C3E50;
+			padding: 20px 50px;
+		}
+		.bg1 .panelform .panel-body .glyphicon{
+			color: #CD6155;
+		}
+		.bg1 .btnsatu{
+			margin: 20px 0px;
+			
+		}
+		.bg1 .btndua{
+			color: teal;
+			background: white;
+			border-color: white; 
+		}
+
+	/*-----------BG-1A B------------*/
+		.bg1a{
+			background: #2C3E50;
+			padding: 10px 25px;
+			color: white;
+		}
+		.bg1a p{
+			visibility: inline;
+			font-size: 15px;
+		}
+		.bg1b img{
+			max-width: 50px;
+			height: auto;
+		}
+		.bg1b{
+			color: white;
+			background-image: url('pic/background1b.jpg'); 
+			opacity: 0.8;
+			padding: 25px;
+			border-bottom: 4px solid #7B241C;
+		}
+		.bg1b h3{
+			border-bottom: 2px solid #7B241C; 
+
+		}
+		.rowsocial{
+			background: white;
+			color: #7B241C;
+			border-bottom: 4px solid #7B241C;
+			padding: 20px;	
+		}
+		
+		/*-----------bg2------------*/
+		.bg2{
+			background-image: url('pic/backgroundwhite.jpg');
+			
+			padding: 50px 25px 100px;
+		}
+		.bg2 h3{
+			margin-bottom: 50px; 
+			color: teal;
+		}
+		.col21{
+			background: rgba(254,254,254,0.8);
+			padding: 50px;
+		}
+		
+		
+		/*-------------------bg3-------------------*/
+		.bg3{
+			background-image: url('pic/background3.jpg');
+			padding:50px 25px 50px;
+			background-size: contain;
+			opacity: 0.89;
+		}
+		.bg3 h3{
+			margin-bottom: 50px; 
+			color: white;
+
+		}
+		.glyphkecil{
+			margin: 20px;
+			font-size: 70px;
+		}
+		.kecil{
+			color: white;
+			height: 250px;
+			box-sizing: border-box;
+			padding-top: 20px;		
+		}
+		.kecil h4{
+			letter-spacing: 4px;
+		}
+		.kecil p{
+			letter-spacing: 2px;
+		}
+		.kcl1{
+			background: white;
+			color: #212F3C;
+		}
+		
+		/*-------------bg4----------------*/
+		.bg4{
+			background-image: url('pic/backgroundwhite.jpg');
+			padding:50px 25px 50px;
+		}
+		.bg4 h3{
+			margin-bottom: 50px; 
+			color: teal;
+		}
+		
+		.thumbnail {
+			padding: 0px 0px 10px 0px;
+			
+		}
+		.thumbnail img{
+			max-width: 100%;
+			height: 250px;
+			
+		}
+		.thumbnail p{
+			text-align: justify;
+			font-size: 12px;
+			margin-left: 10px;
+		}
+		
+		/*------------BG5------------*/
+		.bg5{
+			padding:50px 25px 50px;
+			background-image: url('pic/background55.jpg');
+		}
+		.panelpaket{
+			font-size: 13px;
+			line-height: 30px;
+			border:none;
+			color: white;
+		}
+		.panelpaket .panel-body div{
+			width: 100%;
+		}
+		
+		.paneloffice .panelhead1{	
+			background: #45B39D;
+			color: white;
+		}	
+		.paneloffice .panelhead2{
+			background: white;
+			color:#839192;
+		}
+		.paneloffice .panel-body{
+			background: #73C6B6 ;
+		}
+		.paneloffice .panel-footer{
+			background: white;
+		}
+
+		
+		.panelmingame .panelhead1{	
+			background: #5499C7;
+			color: white;
+		}	
+		.panelmingame .panelhead2{
+			background: white;
+			color:#839192;
+		}
+		.panelmingame .panel-body{
+			background: #7FB3D5 ;
+		}
+		.panelmingame .panel-footer{
+			background: white;
+		}
+
+
+		
+		.panelmidgame .panelhead1{	
+			background: #EB984E;
+			color: white;
+		}	
+		.panelmidgame .panelhead2{
+			background: white;
+			color:#839192;
+		}
+		.panelmidgame .panel-body{
+			background: #F0B27A ;
+		}
+		.panelmidgame .panel-footer{
+			background: white;
+		}
+		
+		
+		.panelfullgame .panelhead1{	
+			background: #CD6155;
+			color: white;
+		}	
+		.panelfullgame .panelhead2{
+			background: white;
+			color:#839192;
+		}
+		.panelfullgame .panel-body{
+			background: #D98880 ;
+		}
+		.panelfullgame .panel-footer{
+			background: white;
+		}
+		.btnijo,.btnbiru,.btnoren,.btnmerah{
+			border: none;
+
+		}
+		.btnijo{
+			background: #45B39D;
+		}
+		.btnbiru{
+			background: #5499C7;
+		}
+		.btnoren{
+			background: #EB984E;
+		}
+		.btnijo:hover{
+			background:#117864;
+		}
+		.btnbiru:hover{
+			background: #1A5276;
+		}
+		.btnoren:hover{
+			background: #DC7633;
+		}
+		/*------------ BG6 ------------*/
+		.bg6{
+			padding:100px 25px 100px;
+			background-image: url('pic/backgroundwhite.jpg');
+		}
+		.bg6 h3{
+			margin-bottom: 50px;
+		}
+		.col6{
+			background: rgba(253, 254, 254,0.8);
+			padding-bottom: 50px;
+		}
+		.carousel-control.right, .carousel-control.left {
+	    background-image: none;
+	    color: #CD6155;
+		}
+		.carousel-indicators{
+			margin-top: 100px;
+		}
+		.carousel-indicators li {
+		    border-color: #CD6155;
+		}
+
+		.carousel-indicators li.active {
+		    background-color: #CD6155;
+		}
+
+		.item h4 {
+		    font-size: 19px;
+		    line-height: 1.375em;
+		    font-weight: 400;
+		    font-style: italic;
+		    margin: 0px 20px 80px;
+		}
+
+		.item span {
+		    font-style: normal;
+		}
+		.img-karosel{
+			max-width: 250px;
+			height: 220px;
+		}
+		.komen-karosel{
+			padding: 40px;
+			background: white;
+		}
+
+		/*------------ BG7 ------------*/
+		.bg7 img{
+			margin: 0 auto;
+			padding: 50px;
+		}
+		.bg7a img{
+			max-width: 50px;
+			height: auto;
+		}
+		.bg7a{
+			color: white;
+			background:#2471A3;
+			opacity: 0.8;
+			padding: 25px;
+		}
+		.bg7a h3{
+			border-bottom: 2px solid white; 
+
+		}
+		.bg7a .rowcp{
+			background: white ;
+			color: #2C3E50 ;
+			border-bottom: 4px solid #1A5276;
+			padding: 10px;	
+		}
+		.rowcp2 img{
+			max-width: 40px;
+			height: auto;
+			margin-bottom: 10px;
+		}
+		/*------------ BG8 ------------*/
+
+		.bg8{
+			background:#1A5276;
+			color: white;
+			letter-spacing: 4px;
+			padding: 100px 80px 50px;
+		}
+		.bg8 a{
+			color: white;
+		}
+		.bg8 h3{
+			margin-bottom: 50px; 
+		}
+		.col81{
+			background: rgba(44, 62, 80, 0.4);
+			padding:50px;
+			box-sizing: border-box;
+		}
+
+		/*------------ menu artikel------------*/
+		.menu{
+			background: white;
+			border-bottom: 4px solid #7B241C;
+			padding: 20px;	
+		}
+		.artikel{
+			margin: 100px auto;
+			background: white;
+		}
+		.artikel p{
+			text-align: justify; 
+			margin: 20px 0px;
+
+		}
+		.artikel img{
+			margin:0 auto;
+		}
+		.item{
+			margin:20px;
+
+		}
+		.komen{
+			margin: 30px auto;
+		}
+		.komenimg{
+			max-width: 150px;
+			height: auto;
+		}
+		.kmn{
+			margin-top:10px;
+		}
+		.item b{
+			background: #2C3E50;
+			color: white;
+			padding:5px;
+			margin: 10px auto;
+			border-radius: 10px; 
+		}
+		.item hr{
+			width: 100%;
+			border-color: red;
+		}
+		.item img{
+			margin: 10px 0px;
+
+		}
+		.item .btn{
+			margin-top: 10px;
+			border-radius: 20px;
+		}
+
+		/*------------ artikel dalam------------*/
+		
+		.bagikan{
+			background: white;
+			border-bottom: 1px solid #7B241C;
+			padding: 20px;	
+			clear: both;
+		}
+		.bagikan img{
+			max-width: 20px;
+			height: auto
+		}
+		.tag{
+			border-bottom: 1px solid #45B39D;
+			padding: 10px;
+		}
+		.tag ul{
+			list-style: none;
+			width: 100%;
+			
+		}
+		.tag li a{
+			text-decoration: none;
+			float: left;
+			padding: 10px;
+			background: #45B39D;
+			color: white;
+			margin-right: 20px;
+			border-radius: 5px;
+
+		}
+		.komentator{
+			border-bottom: 1px solid #7B241C;
+		}
+
+		/*------------ HALAMAN LOGIN------------*/
+
+		.login, .daftar{
+			width: 50%;
+		}
+		.login{
+			margin: 100px auto;
+			background: white;
+			border-bottom: 10px solid #CD6155;
+			padding: 10px;
+		}
+		.login h3{
+			letter-spacing: 2px;
+		}
+		.login .glyphicon{
+			color: #CD6155;
+		}
+		.daftar{
+			margin: 100px auto;
+			background: white;
+			border-bottom: 10px solid #45B39D;
+			padding: 10px;
+		}
+		.daftar h3{
+			letter-spacing: 2px;
+		}
+		.daftar .glyphicon{
+			color: #45B39D;
+		}
+		.daftar .btn{
+			background:#45B39D;
+			border-color: #45B39D;
+		}
+
+
+		/*------------ ERROR ------------*/
+		.error{
+			background: white;
+			color: #7B241C;
+			
+		}
+
+		.margin{
+			margin: 100px auto;
+			background: white;
+
+		}
+		.margin h3{
+			color: #CD6155;
+		}
+		.pesan{
+			margin: 100px auto;
+			background-image: url('pic/backgroundwhite.jpg');
+		}
+		.pesankustom{
+			background: #EAEDED;
+		}
